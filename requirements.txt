@@ -2,4 +2,4 @@ langchain-openai
 langchain-community
 langgraph
 python-dotenv
-pygraphviz
+# pygraphviz
