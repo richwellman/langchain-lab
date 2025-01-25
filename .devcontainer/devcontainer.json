@@ -11,5 +11,9 @@
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {}
-	}
+	},
+	// Use 'postCreateCommand' to run commands after the container is created.
+    "postCreateCommand": {
+        "Install Graphviz": "sudo apt install graphviz"
+    }
 }
