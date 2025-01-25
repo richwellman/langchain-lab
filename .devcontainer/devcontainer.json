@@ -14,6 +14,7 @@
 	},
 	// Use 'postCreateCommand' to run commands after the container is created.
     "postCreateCommand": {
-        "Install Graphviz": "sudo apt install graphviz"
+		"Update apt get": "sudo apt-get update",
+        "Install Graphviz": "sudo apt-get install graphviz graphviz-dev"
     }
 }
