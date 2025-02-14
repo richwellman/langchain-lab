@@ -1,5 +1,6 @@
 langchain-openai
 langchain-community
 langgraph
+langsmith
 python-dotenv
 #pygraphviz
